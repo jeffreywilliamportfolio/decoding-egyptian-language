@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Prior Reading",
+  "type": "object",
+  "required": ["line_id", "reading_type", "text"],
+  "properties": {
+    "line_id": {"type": "string"},
+    "reading_id": {"type": ["string", "null"]},
+    "source_id": {"type": ["string", "null"]},
+    "source_item_id": {"type": ["string", "null"]},
+    "page": {"type": ["integer", "null"]},
+    "reading_type": {"type": "string"},
+    "text": {"type": "string"},
+    "notes": {"type": "string"}
+  }
+}

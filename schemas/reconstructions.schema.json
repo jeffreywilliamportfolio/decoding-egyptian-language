@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reconstruction",
+  "type": "object",
+  "required": ["line_id", "candidates", "transliteration_candidates", "parse_candidates", "translation_candidates", "confidence"],
+  "properties": {
+    "line_id": {"type": "string"},
+    "candidates": {"type": "array", "items": {"type": "string"}},
+    "transliteration_candidates": {"type": "array", "items": {"type": "string"}},
+    "parse_candidates": {"type": "array", "items": {"type": "string"}},
+    "translation_candidates": {"type": "array", "items": {"type": "string"}},
+    "confidence": {"type": "number"},
+    "notes": {"type": "string"}
+  }
+}

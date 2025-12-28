@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Discrepancy",
+  "type": "object",
+  "required": ["line_id", "severity", "diff_ratio", "likely_cause"],
+  "properties": {
+    "line_id": {"type": "string"},
+    "reading_id": {"type": ["string", "null"]},
+    "severity": {"type": "string"},
+    "diff_ratio": {"type": "number"},
+    "likely_cause": {"type": "string"},
+    "notes": {"type": "string"}
+  }
+}

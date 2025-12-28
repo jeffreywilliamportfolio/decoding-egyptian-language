@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Audit Journal Entry",
+  "type": "object",
+  "required": ["timestamp", "type", "text"],
+  "properties": {
+    "timestamp": {"type": "string"},
+    "type": {"type": "string"},
+    "text": {"type": "string"},
+    "line_id": {"type": ["string", "null"]},
+    "source_id": {"type": ["string", "null"]},
+    "confidence": {"type": ["number", "null"]},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  }
+}

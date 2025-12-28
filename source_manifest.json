@@ -1,0 +1,1350 @@
+{
+  "manifest_version": "1.1",
+  "corpus_id": "faulkner1969_p10_nt_lines",
+  "sources": [
+    {
+      "source_id": "faulkner1969",
+      "type": "pdf",
+      "title": "The Ancient Egyptian Pyramid Texts (Supplement of Hieroglyphic Texts)",
+      "author": "R. O. Faulkner",
+      "year": 1969,
+      "publisher": "Oxford University Press",
+      "local_path": "ro_faulkner_pyramid_text_english.pdf",
+      "notes": "Hand-copy plates of Pyramid Texts; near-primary line drawings used as evidence anchors.",
+      "items": [
+        {
+          "item_id": "faulkner1969_p10",
+          "page": 10,
+          "contents": "Hand copies of Utterances 59A-63 for Neith; includes Nt 304-308 and notes.",
+          "relevance": "Provides a traceable hand-copy image for a representative set of lines used to seed the audit pipeline.",
+          "evidence": [
+            {
+              "evidence_id": "faulkner1969_p10_full",
+              "kind": "page_image",
+              "output_path": "evidence/faulkner1969_p10_full.png",
+              "label": "Full page image, page 10",
+              "render": {
+                "engine": "pymupdf",
+                "scale": 2.0
+              }
+            },
+            {
+              "evidence_id": "faulkner1969_p10_nt304_utt59a",
+              "kind": "crop",
+              "output_path": "evidence/faulkner1969_p10_nt304_utt59a.png",
+              "label": "Nt 304 (Utt. 59A) hand-copy line",
+              "render": {
+                "engine": "pymupdf",
+                "scale": 2.0
+              },
+              "bbox": [
+                200,
+                200,
+                3970,
+                1000
+              ]
+            },
+            {
+              "evidence_id": "faulkner1969_p10_nt305_utt60",
+              "kind": "crop",
+              "output_path": "evidence/faulkner1969_p10_nt305_utt60.png",
+              "label": "Nt 305 (Utt. 60) hand-copy line",
+              "render": {
+                "engine": "pymupdf",
+                "scale": 2.0
+              },
+              "bbox": [
+                200,
+                1000,
+                3970,
+                1800
+              ]
+            },
+            {
+              "evidence_id": "faulkner1969_p10_nt306_utt61",
+              "kind": "crop",
+              "output_path": "evidence/faulkner1969_p10_nt306_utt61.png",
+              "label": "Nt 306 (Utt. 61) hand-copy line",
+              "render": {
+                "engine": "pymupdf",
+                "scale": 2.0
+              },
+              "bbox": [
+                200,
+                1800,
+                3970,
+                2600
+              ]
+            },
+            {
+              "evidence_id": "faulkner1969_p10_nt307_utt62",
+              "kind": "crop",
+              "output_path": "evidence/faulkner1969_p10_nt307_utt62.png",
+              "label": "Nt 307 (Utt. 62) hand-copy line",
+              "render": {
+                "engine": "pymupdf",
+                "scale": 2.0
+              },
+              "bbox": [
+                200,
+                2600,
+                3970,
+                3400
+              ]
+            },
+            {
+              "evidence_id": "faulkner1969_p10_nt308_utt62a",
+              "kind": "crop",
+              "output_path": "evidence/faulkner1969_p10_nt308_utt62a.png",
+              "label": "Nt 308 (Utt. 62A) hand-copy line",
+              "render": {
+                "engine": "pymupdf",
+                "scale": 2.0
+              },
+              "bbox": [
+                200,
+                3400,
+                3970,
+                4200
+              ]
+            },
+            {
+              "evidence_id": "faulkner1969_p10_utt63",
+              "kind": "crop",
+              "output_path": "evidence/faulkner1969_p10_utt63.png",
+              "label": "Utt. 63 (not in Nt.) note",
+              "render": {
+                "engine": "pymupdf",
+                "scale": 2.0
+              },
+              "bbox": [
+                200,
+                4200,
+                3970,
+                5000
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "jequier1933a",
+      "type": "image",
+      "title": "Les pyramides des reines Neit et Apouit",
+      "author": "G. Jequier",
+      "year": 1933,
+      "publisher": "Institut francais d'archeologie orientale",
+      "source_url": "https://digi.ub.uni-heidelberg.de/diglit/jequier1933a",
+      "local_path": "evidence/jequier1933a_planche07_full.jpg",
+      "notes": "Heidelberg digitization; IIIF JPEG used as evidence anchor. Table des planches lists Planche VII-XIII as 'Textes funeraires de Neit. Paroi Nord.'",
+      "items": [
+        {
+          "item_id": "jequier1933a_pl07",
+          "page": 7,
+          "plate": "Planche 7",
+          "contents": "Textes funeraires de Neit. Paroi Nord.",
+          "relevance": "Near-primary plate for Neith pyramid texts (north wall).",
+          "evidence": [
+            {
+              "evidence_id": "jequier1933a_pl07_full",
+              "kind": "page_image",
+              "output_path": "evidence/jequier1933a_planche07_full.jpg",
+              "label": "Planche 7 full plate",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_07.jpg"
+            },
+            {
+              "evidence_id": "jequier1933a_pl07_band1",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl07_band1.jpg",
+              "label": "Planche 7 band 1/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_07.jpg",
+              "bbox": [
+                180,
+                220,
+                2154,
+                662
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl07_band2",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl07_band2.jpg",
+              "label": "Planche 7 band 2/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_07.jpg",
+              "bbox": [
+                180,
+                662,
+                2154,
+                1105
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl07_band3",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl07_band3.jpg",
+              "label": "Planche 7 band 3/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_07.jpg",
+              "bbox": [
+                180,
+                1105,
+                2154,
+                1548
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl07_band4",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl07_band4.jpg",
+              "label": "Planche 7 band 4/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_07.jpg",
+              "bbox": [
+                180,
+                1548,
+                2154,
+                1990
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl07_band5",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl07_band5.jpg",
+              "label": "Planche 7 band 5/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_07.jpg",
+              "bbox": [
+                180,
+                1990,
+                2154,
+                2433
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl07_band6",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl07_band6.jpg",
+              "label": "Planche 7 band 6/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_07.jpg",
+              "bbox": [
+                180,
+                2433,
+                2154,
+                2876
+              ]
+            }
+          ]
+        },
+        {
+          "item_id": "jequier1933a_pl08",
+          "page": 8,
+          "plate": "Planche 8",
+          "contents": "Textes funeraires de Neit. Paroi Nord.",
+          "relevance": "Near-primary plate for Neith pyramid texts (north wall).",
+          "evidence": [
+            {
+              "evidence_id": "jequier1933a_pl08_full",
+              "kind": "page_image",
+              "output_path": "evidence/jequier1933a_planche08_full.jpg",
+              "label": "Planche 8 full plate",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_08.jpg"
+            },
+            {
+              "evidence_id": "jequier1933a_pl08_band1",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl08_band1.jpg",
+              "label": "Planche 8 band 1/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_08.jpg",
+              "bbox": [
+                180,
+                220,
+                2154,
+                662
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl08_band2",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl08_band2.jpg",
+              "label": "Planche 8 band 2/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_08.jpg",
+              "bbox": [
+                180,
+                662,
+                2154,
+                1105
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl08_band3",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl08_band3.jpg",
+              "label": "Planche 8 band 3/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_08.jpg",
+              "bbox": [
+                180,
+                1105,
+                2154,
+                1548
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl08_band4",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl08_band4.jpg",
+              "label": "Planche 8 band 4/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_08.jpg",
+              "bbox": [
+                180,
+                1548,
+                2154,
+                1990
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl08_band5",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl08_band5.jpg",
+              "label": "Planche 8 band 5/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_08.jpg",
+              "bbox": [
+                180,
+                1990,
+                2154,
+                2433
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl08_band6",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl08_band6.jpg",
+              "label": "Planche 8 band 6/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_08.jpg",
+              "bbox": [
+                180,
+                2433,
+                2154,
+                2876
+              ]
+            }
+          ]
+        },
+        {
+          "item_id": "jequier1933a_pl09",
+          "page": 9,
+          "plate": "Planche 9",
+          "contents": "Textes funeraires de Neit. Paroi Nord.",
+          "relevance": "Near-primary plate for Neith pyramid texts (north wall).",
+          "evidence": [
+            {
+              "evidence_id": "jequier1933a_pl09_full",
+              "kind": "page_image",
+              "output_path": "evidence/jequier1933a_planche09_full.jpg",
+              "label": "Planche 9 full plate",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_09.jpg"
+            },
+            {
+              "evidence_id": "jequier1933a_pl09_band1",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl09_band1.jpg",
+              "label": "Planche 9 band 1/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_09.jpg",
+              "bbox": [
+                180,
+                220,
+                2154,
+                662
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl09_band2",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl09_band2.jpg",
+              "label": "Planche 9 band 2/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_09.jpg",
+              "bbox": [
+                180,
+                662,
+                2154,
+                1105
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl09_band3",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl09_band3.jpg",
+              "label": "Planche 9 band 3/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_09.jpg",
+              "bbox": [
+                180,
+                1105,
+                2154,
+                1548
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl09_band4",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl09_band4.jpg",
+              "label": "Planche 9 band 4/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_09.jpg",
+              "bbox": [
+                180,
+                1548,
+                2154,
+                1990
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl09_band5",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl09_band5.jpg",
+              "label": "Planche 9 band 5/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_09.jpg",
+              "bbox": [
+                180,
+                1990,
+                2154,
+                2433
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl09_band6",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl09_band6.jpg",
+              "label": "Planche 9 band 6/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_09.jpg",
+              "bbox": [
+                180,
+                2433,
+                2154,
+                2876
+              ]
+            }
+          ]
+        },
+        {
+          "item_id": "jequier1933a_pl10",
+          "page": 10,
+          "plate": "Planche 10",
+          "contents": "Textes funeraires de Neit. Paroi Nord.",
+          "relevance": "Near-primary plate for Neith pyramid texts (north wall).",
+          "evidence": [
+            {
+              "evidence_id": "jequier1933a_pl10_full",
+              "kind": "page_image",
+              "output_path": "evidence/jequier1933a_planche10_full.jpg",
+              "label": "Planche 10 full plate",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_10.jpg"
+            },
+            {
+              "evidence_id": "jequier1933a_pl10_band1",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl10_band1.jpg",
+              "label": "Planche 10 band 1/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_10.jpg",
+              "bbox": [
+                180,
+                220,
+                2154,
+                662
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl10_band2",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl10_band2.jpg",
+              "label": "Planche 10 band 2/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_10.jpg",
+              "bbox": [
+                180,
+                662,
+                2154,
+                1105
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl10_band3",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl10_band3.jpg",
+              "label": "Planche 10 band 3/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_10.jpg",
+              "bbox": [
+                180,
+                1105,
+                2154,
+                1548
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl10_band4",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl10_band4.jpg",
+              "label": "Planche 10 band 4/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_10.jpg",
+              "bbox": [
+                180,
+                1548,
+                2154,
+                1990
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl10_band5",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl10_band5.jpg",
+              "label": "Planche 10 band 5/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_10.jpg",
+              "bbox": [
+                180,
+                1990,
+                2154,
+                2433
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl10_band6",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl10_band6.jpg",
+              "label": "Planche 10 band 6/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_10.jpg",
+              "bbox": [
+                180,
+                2433,
+                2154,
+                2876
+              ]
+            }
+          ]
+        },
+        {
+          "item_id": "jequier1933a_pl11",
+          "page": 11,
+          "plate": "Planche 11",
+          "contents": "Textes funeraires de Neit. Paroi Nord.",
+          "relevance": "Near-primary plate for Neith pyramid texts (north wall).",
+          "evidence": [
+            {
+              "evidence_id": "jequier1933a_pl11_full",
+              "kind": "page_image",
+              "output_path": "evidence/jequier1933a_planche11_full.jpg",
+              "label": "Planche 11 full plate",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_11.jpg"
+            },
+            {
+              "evidence_id": "jequier1933a_pl11_band1",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl11_band1.jpg",
+              "label": "Planche 11 band 1/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_11.jpg",
+              "bbox": [
+                180,
+                220,
+                2154,
+                662
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl11_band2",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl11_band2.jpg",
+              "label": "Planche 11 band 2/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_11.jpg",
+              "bbox": [
+                180,
+                662,
+                2154,
+                1105
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl11_band3",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl11_band3.jpg",
+              "label": "Planche 11 band 3/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_11.jpg",
+              "bbox": [
+                180,
+                1105,
+                2154,
+                1548
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl11_band4",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl11_band4.jpg",
+              "label": "Planche 11 band 4/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_11.jpg",
+              "bbox": [
+                180,
+                1548,
+                2154,
+                1990
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl11_band5",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl11_band5.jpg",
+              "label": "Planche 11 band 5/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_11.jpg",
+              "bbox": [
+                180,
+                1990,
+                2154,
+                2433
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl11_band6",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl11_band6.jpg",
+              "label": "Planche 11 band 6/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_11.jpg",
+              "bbox": [
+                180,
+                2433,
+                2154,
+                2876
+              ]
+            }
+          ]
+        },
+        {
+          "item_id": "jequier1933a_pl12",
+          "page": 12,
+          "plate": "Planche 12",
+          "contents": "Textes funeraires de Neit. Paroi Nord.",
+          "relevance": "Near-primary plate for Neith pyramid texts (north wall).",
+          "evidence": [
+            {
+              "evidence_id": "jequier1933a_pl12_full",
+              "kind": "page_image",
+              "output_path": "evidence/jequier1933a_planche12_full.jpg",
+              "label": "Planche 12 full plate",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_12.jpg"
+            },
+            {
+              "evidence_id": "jequier1933a_pl12_band1",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl12_band1.jpg",
+              "label": "Planche 12 band 1/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_12.jpg",
+              "bbox": [
+                180,
+                220,
+                2154,
+                662
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl12_band2",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl12_band2.jpg",
+              "label": "Planche 12 band 2/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_12.jpg",
+              "bbox": [
+                180,
+                662,
+                2154,
+                1105
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl12_band3",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl12_band3.jpg",
+              "label": "Planche 12 band 3/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_12.jpg",
+              "bbox": [
+                180,
+                1105,
+                2154,
+                1548
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl12_band4",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl12_band4.jpg",
+              "label": "Planche 12 band 4/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_12.jpg",
+              "bbox": [
+                180,
+                1548,
+                2154,
+                1990
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl12_band5",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl12_band5.jpg",
+              "label": "Planche 12 band 5/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_12.jpg",
+              "bbox": [
+                180,
+                1990,
+                2154,
+                2433
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl12_band6",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl12_band6.jpg",
+              "label": "Planche 12 band 6/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_12.jpg",
+              "bbox": [
+                180,
+                2433,
+                2154,
+                2876
+              ]
+            }
+          ]
+        },
+        {
+          "item_id": "jequier1933a_pl13",
+          "page": 13,
+          "plate": "Planche 13",
+          "contents": "Textes funeraires de Neit. Paroi Nord.",
+          "relevance": "Near-primary plate for Neith pyramid texts (north wall).",
+          "evidence": [
+            {
+              "evidence_id": "jequier1933a_pl13_full",
+              "kind": "page_image",
+              "output_path": "evidence/jequier1933a_planche13_full.jpg",
+              "label": "Planche 13 full plate",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_13.jpg"
+            },
+            {
+              "evidence_id": "jequier1933a_pl13_band1",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl13_band1.jpg",
+              "label": "Planche 13 band 1/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_13.jpg",
+              "bbox": [
+                180,
+                220,
+                2154,
+                662
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl13_band2",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl13_band2.jpg",
+              "label": "Planche 13 band 2/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_13.jpg",
+              "bbox": [
+                180,
+                662,
+                2154,
+                1105
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl13_band3",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl13_band3.jpg",
+              "label": "Planche 13 band 3/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_13.jpg",
+              "bbox": [
+                180,
+                1105,
+                2154,
+                1548
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl13_band4",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl13_band4.jpg",
+              "label": "Planche 13 band 4/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_13.jpg",
+              "bbox": [
+                180,
+                1548,
+                2154,
+                1990
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl13_band5",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl13_band5.jpg",
+              "label": "Planche 13 band 5/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_13.jpg",
+              "bbox": [
+                180,
+                1990,
+                2154,
+                2433
+              ]
+            },
+            {
+              "evidence_id": "jequier1933a_pl13_band6",
+              "kind": "crop",
+              "output_path": "evidence/jequier1933a_pl13_band6.jpg",
+              "label": "Planche 13 band 6/6 (auto-sliced; uncertain)",
+              "source_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/jequier1933a/3/Planche_13.jpg",
+              "bbox": [
+                180,
+                2433,
+                2154,
+                2876
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "sethe1908_eos",
+      "type": "image",
+      "title": "Die Altaegyptischen Pyramidentexte nach den Papierabdrucken und Photographien des Berliner Museums",
+      "author": "Kurt Sethe",
+      "year": 1908,
+      "publisher": "J. C. Hinrichs'sche Buchhandlung",
+      "source_url": "https://www.lib.uchicago.edu/cgi-bin/eos/eos_title.pl?callnum=PJ1553.A1_1908_cop3",
+      "local_path": "evidence/sethe1908_p25.jpg",
+      "notes": "University of Chicago EOS page images (call number PJ1553.A1 1908 cop3).",
+      "items": [
+        {
+          "item_id": "sethe1908_p25",
+          "page": 25,
+          "contents": "Spruch 53-57 (Pyr. 38c-68f) page image; includes hand copies and layout for Spruche 53-57.",
+          "relevance": "Near-primary handcopy page from Sethe; adjacent context to Spruche 59-63. Additional pages for Spruche 58-63 still needed.",
+          "evidence": [
+            {
+              "evidence_id": "sethe1908_p25_full",
+              "kind": "page_image",
+              "output_path": "evidence/sethe1908_p25.jpg",
+              "label": "Sethe 1908, page 25 (Spruch 53-57)",
+              "source_url": "https://www.lib.uchicago.edu/eos/images/PJ1553.A1_1908_cop3/PJ1553.A1_1908_cop3_36.JPG"
+            }
+          ]
+        },
+        {
+          "item_id": "sethe1908_p26",
+          "page": 26,
+          "contents": "Spruch 58-63 (Pyr. 41a-44c) page image; includes Spruche 58-63.",
+          "relevance": "Near-primary handcopy page from Sethe for Spruche 58-63 (includes 59-63).",
+          "evidence": [
+            {
+              "evidence_id": "sethe1908_p26_full",
+              "kind": "page_image",
+              "output_path": "evidence/sethe1908_p26.jpg",
+              "label": "Sethe 1908, page 26 (Spruch 58-63)",
+              "source_url": "https://www.lib.uchicago.edu/eos/images/PJ1553.A1_1908_cop3/PJ1553.A1_1908_cop3_37.JPG"
+            },
+            {
+              "evidence_id": "sethe1908_p26_spruch58_63",
+              "kind": "crop",
+              "output_path": "evidence/sethe1908_p26_spruch58_63.png",
+              "label": "Sethe 1908, page 26: Spruch 58-63 region (manual crop)",
+              "source_url": "https://www.lib.uchicago.edu/eos/images/PJ1553.A1_1908_cop3/PJ1553.A1_1908_cop3_37.JPG",
+              "bbox": [
+                0,
+                0,
+                845,
+                745
+              ]
+            },
+            {
+              "evidence_id": "sethe1908_p26_band1",
+              "kind": "crop",
+              "output_path": "evidence/sethe1908_p26_band1.png",
+              "label": "Sethe 1908 p26 Spruch 58-63 band 1/6 (auto-sliced; uncertain)",
+              "source_url": "https://www.lib.uchicago.edu/eos/images/PJ1553.A1_1908_cop3/PJ1553.A1_1908_cop3_37.JPG",
+              "bbox": [
+                0,
+                0,
+                845,
+                124
+              ]
+            },
+            {
+              "evidence_id": "sethe1908_p26_band2",
+              "kind": "crop",
+              "output_path": "evidence/sethe1908_p26_band2.png",
+              "label": "Sethe 1908 p26 Spruch 58-63 band 2/6 (auto-sliced; uncertain)",
+              "source_url": "https://www.lib.uchicago.edu/eos/images/PJ1553.A1_1908_cop3/PJ1553.A1_1908_cop3_37.JPG",
+              "bbox": [
+                0,
+                124,
+                845,
+                248
+              ]
+            },
+            {
+              "evidence_id": "sethe1908_p26_band3",
+              "kind": "crop",
+              "output_path": "evidence/sethe1908_p26_band3.png",
+              "label": "Sethe 1908 p26 Spruch 58-63 band 3/6 (auto-sliced; uncertain)",
+              "source_url": "https://www.lib.uchicago.edu/eos/images/PJ1553.A1_1908_cop3/PJ1553.A1_1908_cop3_37.JPG",
+              "bbox": [
+                0,
+                248,
+                845,
+                372
+              ]
+            },
+            {
+              "evidence_id": "sethe1908_p26_band4",
+              "kind": "crop",
+              "output_path": "evidence/sethe1908_p26_band4.png",
+              "label": "Sethe 1908 p26 Spruch 58-63 band 4/6 (auto-sliced; uncertain)",
+              "source_url": "https://www.lib.uchicago.edu/eos/images/PJ1553.A1_1908_cop3/PJ1553.A1_1908_cop3_37.JPG",
+              "bbox": [
+                0,
+                372,
+                845,
+                496
+              ]
+            },
+            {
+              "evidence_id": "sethe1908_p26_band5",
+              "kind": "crop",
+              "output_path": "evidence/sethe1908_p26_band5.png",
+              "label": "Sethe 1908 p26 Spruch 58-63 band 5/6 (auto-sliced; uncertain)",
+              "source_url": "https://www.lib.uchicago.edu/eos/images/PJ1553.A1_1908_cop3/PJ1553.A1_1908_cop3_37.JPG",
+              "bbox": [
+                0,
+                496,
+                845,
+                620
+              ]
+            },
+            {
+              "evidence_id": "sethe1908_p26_band6",
+              "kind": "crop",
+              "output_path": "evidence/sethe1908_p26_band6.png",
+              "label": "Sethe 1908 p26 Spruch 58-63 band 6/6 (auto-sliced; uncertain)",
+              "source_url": "https://www.lib.uchicago.edu/eos/images/PJ1553.A1_1908_cop3/PJ1553.A1_1908_cop3_37.JPG",
+              "bbox": [
+                0,
+                620,
+                845,
+                745
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "mercer1952_sacred_texts",
+      "type": "web",
+      "title": "The Pyramid Texts (Translation and Commentary)",
+      "author": "Samuel A. B. Mercer",
+      "year": 1952,
+      "publisher": "Longmans, Green and Co.",
+      "source_url": "https://www.sacred-texts.com/egy/pyt/pyt05.htm",
+      "local_path": "",
+      "notes": "Public-domain English translation with utterance and line numbering (Utterances 58-71).",
+      "items": [
+        {
+          "item_id": "mercer1952_utt58_71",
+          "page": 41,
+          "contents": "Utterances 58-71 (Pyr. 41a-48c) with line numbers for Nt. 302-310.",
+          "relevance": "English translation for Utterances 59-63 (Pyr. 41b-44c) used as prior readings.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "source_id": "awol_2013_eef_list",
+      "type": "web",
+      "title": "The EEF's list of Digitized Collections of Ancient Egyptian Source Texts",
+      "author": "Ancient World Online (AWOL)",
+      "year": 2013,
+      "publisher": "AWOL (blogger.com)",
+      "source_url": "https://ancientworldonline.blogspot.com/2013/10/the-eefs-list-of-digitized-collections.html",
+      "local_path": "",
+      "notes": "Aggregator list that links to Sethe 1908/1910 PDF files on the BSB MDZ mirror and other primary text collections.",
+      "items": [
+        {
+          "item_id": "awol_sethe1908_links",
+          "page": 190,
+          "contents": "Links to Sethe, Die altaegyptischen Pyramidentexte (vols. 1-2) PDF files on bsb-mdz12-spiegel.bsb.lrz.de.",
+          "relevance": "Provides discoverability for primary Sethe PDFs covering Spruch 58-63 (vol. 1).",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "source_id": "sethe1908_mdz_vol1",
+      "type": "web",
+      "title": "Die altaegyptischen Pyramidentexte nach den Papierabdruecken und Photographien des Berliner Museums, vol. 1",
+      "author": "Kurt Sethe",
+      "year": 1908,
+      "publisher": "J. C. Hinrichs'sche Buchhandlung",
+      "source_url": "https://bsb-mdz12-spiegel.bsb.lrz.de/~db/0006/bsb00068075/images/",
+      "local_path": "",
+      "notes": "BSB MDZ mirror for Sethe vol. 1 (Spruch 1-468). AWOL lists this as a PDF; web.run fetch timed out when attempting direct download.",
+      "items": [
+        {
+          "item_id": "sethe1908_vol1",
+          "page": 0,
+          "contents": "Sethe vol. 1 text (Spruch 1-468), includes Spruch 58-63 with hieroglyphic text.",
+          "relevance": "Primary edition for Utterances 58-63; required for line-level transcription comparison.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "source_id": "ddb_sethe1908_bsb",
+      "type": "web",
+      "title": "Die altaegyptischen Pyramidentexte : nach den Papierabdruecken und Photographien des Berliner Museums, 1",
+      "author": "Kurt Sethe",
+      "year": 1908,
+      "publisher": "Bayerische Staatsbibliothek (digitalization partner)",
+      "source_url": "https://www.deutsche-digitale-bibliothek.de/item/Z62NPYXUF26JTYSGIQPYHJWB32VTRBLT",
+      "local_path": "",
+      "notes": "Deutsche Digitale Bibliothek record for BSB digitization (object_id bsb00068075) with URN metadata.",
+      "items": [
+        {
+          "item_id": "ddb_sethe1908_vol1_record",
+          "page": 0,
+          "contents": "Metadata record for Sethe 1908 vol. 1; links to BSB viewer/URN.",
+          "relevance": "Provenance and stable identifier for the Sethe primary edition.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "source_id": "sethe1908_mdz_data_viewer",
+      "type": "web",
+      "title": "Digitale Bibliothek - Muenchener Digitalisierungszentrum (Sethe 1908 vol. 1)",
+      "author": "Kurt Sethe",
+      "year": 1908,
+      "publisher": "Bayerische Staatsbibliothek (MDZ)",
+      "source_url": "https://daten.digitale-sammlungen.de/~db/0006/bsb00068075/images/?nav=1&seite=00001&viewmode=1",
+      "local_path": "",
+      "notes": "MDZ data viewer with page navigation and stable image-page links (image_1, etc.). Provides URN and access to IIIF viewer and download menu; JavaScript required for some functions.",
+      "items": [
+        {
+          "item_id": "sethe1908_mdz_image_1",
+          "page": 1,
+          "contents": "MDZ viewer for Sethe 1908 vol.1 image/page 1; contains links to DFG viewer, IIIF viewer, and download menu.",
+          "relevance": "Entry point for accessing full-resolution images or IIIF endpoints for Sethe vol.1 pages containing Spruch 58-63.",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "source_id": "sethe1908_dfg_viewer",
+      "type": "web",
+      "title": "DFG-Viewer: Die altaegyptischen Pyramidentexte (Sethe 1908 vol. 1)",
+      "author": "Kurt Sethe",
+      "year": 1908,
+      "publisher": "DFG-Viewer (SLUB Dresden) / BSB MDZ",
+      "source_url": "https://dfg-viewer.de/show?cHash=5430977b560491f64a913c5f8db47944&tx_dlf%5Bdouble%5D=0&tx_dlf%5Bid%5D=https%3A%2F%2Fapi.digitale-sammlungen.de%2Fdfg%2Fmets%2Fmods%2Fv1%2Fdigitalobjects%2Fidentifier%2Fmdz-obj%3Absb00068075&tx_dlf%5Bpage%5D=1",
+      "local_path": "",
+      "notes": "DFG viewer entry for the BSB digitization. The DFG viewer uses the METS/MODS API endpoint in the query string; page navigation available.",
+      "items": [
+        {
+          "item_id": "sethe1908_dfg_page_1",
+          "page": 1,
+          "contents": "DFG viewer entry (page 1) for Sethe 1908 vol.1; metadata and navigation.",
+          "relevance": "Potential access path to METS/MODS and IIIF endpoints for exact page images (Spruch 58-63).",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "source_id": "sethe1908_mdz_download",
+      "type": "web",
+      "title": "MDZ Download (Sethe 1908 vol. 1)",
+      "author": "Kurt Sethe",
+      "year": 1908,
+      "publisher": "Bayerische Staatsbibliothek (MDZ)",
+      "source_url": "https://download.digitale-sammlungen.de/BOOKS/download.pl?id=00068075&nr=00001",
+      "local_path": "",
+      "notes": "Download menu for PDF/DaFo; requires confirmation via JavaScript. No direct PDF link exposed in HTML.",
+      "items": [
+        {
+          "item_id": "sethe1908_mdz_download_menu",
+          "page": 1,
+          "contents": "MDZ download menu for Sethe 1908 vol.1 (PDF/DaFo).",
+          "relevance": "Primary PDF download path; requires interactive confirmation, so not yet captured as evidence.",
+          "evidence": []
+        }
+      ]
+    }
+  ],
+  "corpus": [
+    {
+      "relief_id": "nt304_utt59a",
+      "label": "Neith pyramid, Utterance 59A, Nt 304",
+      "source_item_id": "faulkner1969_p10",
+      "notes": "Hand-copy only on Faulkner page 10.",
+      "lines": [
+        {
+          "line_id": "nt304_utt59a_l1",
+          "label": "Nt 304 (Utt. 59A) hand copy",
+          "evidence_ids": [
+            "faulkner1969_p10_nt304_utt59a"
+          ],
+          "prior_readings": [
+            {
+              "reading_id": "sethe1908_p26_spruch59",
+              "source_id": "sethe1908_eos",
+              "source_item_id": "sethe1908_p26",
+              "page": 26,
+              "reading_type": "handcopy_reference",
+              "text": "",
+              "notes": "Sethe 1908 p26 labels Spruch 59 within Spruche 58-63; line-level transliteration not extracted."
+            },
+            {
+              "reading_id": "mercer1952_utt59_41c",
+              "source_id": "mercer1952_sacred_texts",
+              "source_item_id": "mercer1952_utt58_71",
+              "page": 41,
+              "reading_type": "translation",
+              "text": "O Nephthys, she comes with the gods of the South, she comes with the gods of the North, she comes with the gods of the West, she comes with the gods of the East, to the King.",
+              "notes": "Mercer translation, Utterance 59 line 41c (Nt. 304), via sacred-texts.com/egy/pyt/pyt05.htm."
+            }
+          ],
+          "secondary_evidence_ids": [
+            "jequier1933a_pl07_band1",
+            "jequier1933a_pl08_band1",
+            "jequier1933a_pl09_band1",
+            "jequier1933a_pl10_band1",
+            "jequier1933a_pl11_band1",
+            "jequier1933a_pl12_band1",
+            "jequier1933a_pl13_band1",
+            "sethe1908_p26_spruch58_63",
+            "sethe1908_p26_band1"
+          ],
+          "notes": "Provisional mapping: auto-sliced plate bands aligned by line order, not content-matched. Sethe 1908 page 26 includes Spruch 58-63; precise line-to-utterance alignment unverified. Sethe 1908 p26 Spruch 58-63 band auto-sliced; content alignment unverified."
+        }
+      ]
+    },
+    {
+      "relief_id": "nt305_utt60",
+      "label": "Neith pyramid, Utterance 60, Nt 305",
+      "source_item_id": "faulkner1969_p10",
+      "notes": "Hand-copy only on Faulkner page 10.",
+      "lines": [
+        {
+          "line_id": "nt305_utt60_l1",
+          "label": "Nt 305 (Utt. 60) hand copy",
+          "evidence_ids": [
+            "faulkner1969_p10_nt305_utt60"
+          ],
+          "prior_readings": [
+            {
+              "reading_id": "sethe1908_p26_spruch60",
+              "source_id": "sethe1908_eos",
+              "source_item_id": "sethe1908_p26",
+              "page": 26,
+              "reading_type": "handcopy_reference",
+              "text": "",
+              "notes": "Sethe 1908 p26 labels Spruch 60 within Spruche 58-63; line-level transliteration not extracted."
+            },
+            {
+              "reading_id": "mercer1952_utt60_42a_42b",
+              "source_id": "mercer1952_sacred_texts",
+              "source_item_id": "mercer1952_utt58_71",
+              "page": 42,
+              "reading_type": "translation",
+              "text": "O King, your father Atum comes to you, etc. / O King, your mother Nut comes to you, etc.",
+              "notes": "Mercer translation, Utterance 60 lines 42a-42b (Nt. 305), via sacred-texts.com/egy/pyt/pyt05.htm; mapping to single line is approximate."
+            }
+          ],
+          "secondary_evidence_ids": [
+            "jequier1933a_pl07_band2",
+            "jequier1933a_pl08_band2",
+            "jequier1933a_pl09_band2",
+            "jequier1933a_pl10_band2",
+            "jequier1933a_pl11_band2",
+            "jequier1933a_pl12_band2",
+            "jequier1933a_pl13_band2",
+            "sethe1908_p26_spruch58_63",
+            "sethe1908_p26_band2"
+          ],
+          "notes": "Provisional mapping: auto-sliced plate bands aligned by line order, not content-matched. Sethe 1908 page 26 includes Spruch 58-63; precise line-to-utterance alignment unverified. Sethe 1908 p26 Spruch 58-63 band auto-sliced; content alignment unverified."
+        }
+      ]
+    },
+    {
+      "relief_id": "nt306_utt61",
+      "label": "Neith pyramid, Utterance 61, Nt 306",
+      "source_item_id": "faulkner1969_p10",
+      "notes": "Hand-copy only on Faulkner page 10.",
+      "lines": [
+        {
+          "line_id": "nt306_utt61_l1",
+          "label": "Nt 306 (Utt. 61) hand copy",
+          "evidence_ids": [
+            "faulkner1969_p10_nt306_utt61"
+          ],
+          "prior_readings": [
+            {
+              "reading_id": "sethe1908_p26_spruch61",
+              "source_id": "sethe1908_eos",
+              "source_item_id": "sethe1908_p26",
+              "page": 26,
+              "reading_type": "handcopy_reference",
+              "text": "",
+              "notes": "Sethe 1908 p26 labels Spruch 61 within Spruche 58-63; line-level transliteration not extracted."
+            },
+            {
+              "reading_id": "mercer1952_utt61_42c",
+              "source_id": "mercer1952_sacred_texts",
+              "source_item_id": "mercer1952_utt58_71",
+              "page": 42,
+              "reading_type": "translation",
+              "text": "O King, Atum has brought to you your kas, etc.",
+              "notes": "Mercer translation, Utterance 61 line 42c (Nt. 306), via sacred-texts.com/egy/pyt/pyt05.htm."
+            }
+          ],
+          "secondary_evidence_ids": [
+            "jequier1933a_pl07_band3",
+            "jequier1933a_pl08_band3",
+            "jequier1933a_pl09_band3",
+            "jequier1933a_pl10_band3",
+            "jequier1933a_pl11_band3",
+            "jequier1933a_pl12_band3",
+            "jequier1933a_pl13_band3",
+            "sethe1908_p26_spruch58_63",
+            "sethe1908_p26_band3"
+          ],
+          "notes": "Provisional mapping: auto-sliced plate bands aligned by line order, not content-matched. Sethe 1908 page 26 includes Spruch 58-63; precise line-to-utterance alignment unverified. Sethe 1908 p26 Spruch 58-63 band auto-sliced; content alignment unverified."
+        }
+      ]
+    },
+    {
+      "relief_id": "nt307_utt62",
+      "label": "Neith pyramid, Utterance 62, Nt 307",
+      "source_item_id": "faulkner1969_p10",
+      "notes": "Hand-copy only on Faulkner page 10.",
+      "lines": [
+        {
+          "line_id": "nt307_utt62_l1",
+          "label": "Nt 307 (Utt. 62) hand copy",
+          "evidence_ids": [
+            "faulkner1969_p10_nt307_utt62"
+          ],
+          "prior_readings": [
+            {
+              "reading_id": "sethe1908_p26_spruch62",
+              "source_id": "sethe1908_eos",
+              "source_item_id": "sethe1908_p26",
+              "page": 26,
+              "reading_type": "handcopy_reference",
+              "text": "",
+              "notes": "Sethe 1908 p26 labels Spruch 62 within Spruche 58-63; line-level transliteration not extracted."
+            },
+            {
+              "reading_id": "mercer1952_utt62_43a",
+              "source_id": "mercer1952_sacred_texts",
+              "source_item_id": "mercer1952_utt58_71",
+              "page": 43,
+              "reading_type": "translation",
+              "text": "O King, your father comes to you; O King, your father comes to you; O King, your father comes to you.",
+              "notes": "Mercer translation, Utterance 62 line 43a (Nt. 307), via sacred-texts.com/egy/pyt/pyt05.htm."
+            }
+          ],
+          "secondary_evidence_ids": [
+            "jequier1933a_pl07_band4",
+            "jequier1933a_pl08_band4",
+            "jequier1933a_pl09_band4",
+            "jequier1933a_pl10_band4",
+            "jequier1933a_pl11_band4",
+            "jequier1933a_pl12_band4",
+            "jequier1933a_pl13_band4",
+            "sethe1908_p26_spruch58_63",
+            "sethe1908_p26_band4"
+          ],
+          "notes": "Provisional mapping: auto-sliced plate bands aligned by line order, not content-matched. Sethe 1908 page 26 includes Spruch 58-63; precise line-to-utterance alignment unverified. Sethe 1908 p26 Spruch 58-63 band auto-sliced; content alignment unverified."
+        }
+      ]
+    },
+    {
+      "relief_id": "nt308_utt62a",
+      "label": "Neith pyramid, Utterance 62A, Nt 308",
+      "source_item_id": "faulkner1969_p10",
+      "notes": "Hand-copy only on Faulkner page 10.",
+      "lines": [
+        {
+          "line_id": "nt308_utt62a_l1",
+          "label": "Nt 308 (Utt. 62A) hand copy",
+          "evidence_ids": [
+            "faulkner1969_p10_nt308_utt62a"
+          ],
+          "prior_readings": [
+            {
+              "reading_id": "sethe1908_p26_spruch63",
+              "source_id": "sethe1908_eos",
+              "source_item_id": "sethe1908_p26",
+              "page": 26,
+              "reading_type": "handcopy_reference",
+              "text": "",
+              "notes": "Sethe 1908 p26 labels Spruch 63 within Spruche 58-63; line-level transliteration not extracted."
+            },
+            {
+              "reading_id": "mercer1952_utt62_43b",
+              "source_id": "mercer1952_sacred_texts",
+              "source_item_id": "mercer1952_utt58_71",
+              "page": 43,
+              "reading_type": "translation",
+              "text": "O King, your mother comes to you; O King, your mother comes to you; O King, your mother comes to you.",
+              "notes": "Mercer translation, Utterance 62 line 43b (Nt. 308), via sacred-texts.com/egy/pyt/pyt05.htm; labeled 62A in Faulkner handcopy."
+            }
+          ],
+          "secondary_evidence_ids": [
+            "jequier1933a_pl07_band5",
+            "jequier1933a_pl08_band5",
+            "jequier1933a_pl09_band5",
+            "jequier1933a_pl10_band5",
+            "jequier1933a_pl11_band5",
+            "jequier1933a_pl12_band5",
+            "jequier1933a_pl13_band5",
+            "sethe1908_p26_spruch58_63",
+            "sethe1908_p26_band5"
+          ],
+          "notes": "Provisional mapping: auto-sliced plate bands aligned by line order, not content-matched. Sethe 1908 page 26 includes Spruch 58-63; precise line-to-utterance alignment unverified. Sethe 1908 p26 Spruch 58-63 band auto-sliced; content alignment unverified."
+        }
+      ]
+    },
+    {
+      "relief_id": "utt63_not_in_nt",
+      "label": "Utterance 63 (not in Neith)",
+      "source_item_id": "faulkner1969_p10",
+      "notes": "Faulkner note: Utterance 63 not in Nt.",
+      "lines": [
+        {
+          "line_id": "utt63_not_in_nt_l1",
+          "label": "Utt. 63 note",
+          "evidence_ids": [
+            "faulkner1969_p10_utt63"
+          ],
+          "prior_readings": [
+            {
+              "reading_id": "mercer1952_utt63_44a_44c",
+              "source_id": "mercer1952_sacred_texts",
+              "source_item_id": "mercer1952_utt58_71",
+              "page": 44,
+              "reading_type": "translation",
+              "text": "O King, your father Atum comes to you; O King, your father Atum comes to you; O King, your father Atum comes to you. / O King, your mother Nut comes to you; O King, your mother Nut comes to you; O King, your mother Nut comes to you. / O King, your mother Nut comes to you.",
+              "notes": "Mercer translation, Utterance 63 lines 44a-44c (not in Nt.), via sacred-texts.com/egy/pyt/pyt05.htm."
+            }
+          ],
+          "secondary_evidence_ids": [
+            "jequier1933a_pl07_band6",
+            "jequier1933a_pl08_band6",
+            "jequier1933a_pl09_band6",
+            "jequier1933a_pl10_band6",
+            "jequier1933a_pl11_band6",
+            "jequier1933a_pl12_band6",
+            "jequier1933a_pl13_band6"
+          ],
+          "notes": "Provisional mapping: auto-sliced plate bands aligned by line order, not content-matched."
+        }
+      ]
+    }
+  ]
+}

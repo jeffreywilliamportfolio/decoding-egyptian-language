@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Observation",
+  "type": "object",
+  "required": ["line_id", "evidence_ids", "observed_signs", "directionality", "uncertainty", "observed_only"],
+  "properties": {
+    "line_id": {"type": "string"},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}},
+    "observed_signs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["sign_id", "description"],
+        "properties": {
+          "sign_id": {"type": "string"},
+          "description": {"type": "string"},
+          "bbox": {
+            "type": "array",
+            "items": {"type": "number"},
+            "minItems": 4,
+            "maxItems": 4
+          },
+          "crop_path": {"type": "string"},
+          "confidence": {"type": "number"}
+        }
+      }
+    },
+    "directionality": {
+      "type": "object",
+      "required": ["value", "basis", "confidence"],
+      "properties": {
+        "value": {"type": "string"},
+        "basis": {"type": "string"},
+        "confidence": {"type": "number"}
+      }
+    },
+    "uncertainty": {"type": "number"},
+    "observed_only": {"type": "boolean"},
+    "cluster_contact_sheet": {"type": "string"},
+    "notes": {"type": "string"}
+  }
+}

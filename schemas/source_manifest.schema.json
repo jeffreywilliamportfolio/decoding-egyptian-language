@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source Manifest",
+  "type": "object",
+  "required": ["manifest_version", "sources", "corpus"],
+  "properties": {
+    "manifest_version": {"type": "string"},
+    "corpus_id": {"type": "string"},
+    "sources": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/source"}
+    },
+    "corpus": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/relief"}
+    }
+  },
+  "definitions": {
+    "source": {
+      "type": "object",
+      "required": ["source_id", "type", "title", "author", "year", "local_path", "items"],
+      "properties": {
+        "source_id": {"type": "string"},
+        "type": {"type": "string"},
+        "title": {"type": "string"},
+        "author": {"type": "string"},
+        "year": {"type": "integer"},
+        "publisher": {"type": "string"},
+        "source_url": {"type": "string"},
+        "local_path": {"type": "string"},
+        "notes": {"type": "string"},
+        "items": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/item"}
+        }
+      }
+    },
+    "item": {
+      "type": "object",
+      "required": ["item_id", "page", "contents", "relevance", "evidence"],
+      "properties": {
+        "item_id": {"type": "string"},
+        "page": {"type": "integer"},
+        "plate": {"type": "string"},
+        "contents": {"type": "string"},
+        "relevance": {"type": "string"},
+        "evidence": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/evidence"}
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["evidence_id", "kind", "output_path"],
+      "properties": {
+        "evidence_id": {"type": "string"},
+        "kind": {"type": "string", "enum": ["page_image", "crop"]},
+        "output_path": {"type": "string"},
+        "label": {"type": "string"},
+        "source_url": {"type": "string"},
+        "render": {
+          "type": "object",
+          "properties": {
+            "engine": {"type": "string"},
+            "scale": {"type": "number"}
+          }
+        },
+        "bbox": {
+          "type": "array",
+          "items": {"type": "number"},
+          "minItems": 4,
+          "maxItems": 4
+        }
+      }
+    },
+    "relief": {
+      "type": "object",
+      "required": ["relief_id", "label", "source_item_id", "lines"],
+      "properties": {
+        "relief_id": {"type": "string"},
+        "label": {"type": "string"},
+        "source_item_id": {"type": "string"},
+        "notes": {"type": "string"},
+        "lines": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/line"}
+        }
+      }
+    },
+    "line": {
+      "type": "object",
+      "required": ["line_id", "label", "evidence_ids", "prior_readings"],
+      "properties": {
+        "line_id": {"type": "string"},
+        "label": {"type": "string"},
+        "evidence_ids": {"type": "array", "items": {"type": "string"}},
+        "secondary_evidence_ids": {"type": "array", "items": {"type": "string"}},
+        "notes": {"type": "string"},
+        "prior_readings": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/prior_reading_ref"}
+        }
+      }
+    },
+    "prior_reading_ref": {
+      "type": "object",
+      "required": ["reading_id", "source_id", "source_item_id", "page", "reading_type"],
+      "properties": {
+        "reading_id": {"type": "string"},
+        "source_id": {"type": "string"},
+        "source_item_id": {"type": "string"},
+        "page": {"type": "integer"},
+        "reading_type": {"type": "string"},
+        "text": {"type": "string"},
+        "notes": {"type": "string"}
+      }
+    }
+  }
+}
