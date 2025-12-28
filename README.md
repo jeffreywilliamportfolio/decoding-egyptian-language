@@ -1,6 +1,18 @@
 # Forensic Egyptology Audit
 
-This repo scaffolds a reproducible audit pipeline seeded from a local source manifest. The initial representative case uses page 10 of `ro_faulkner_pyramid_text_english.pdf` (Faulkner 1969 supplement).
+This repo builds a reproducible “forensic Egyptology audit” pipeline for Pyramid Texts. It ingests a source manifest, renders evidence anchors (page images + crops), generates a corpus index, and produces ledgers + reports that separate **observed** data from **inferred** readings.
+
+**Current scope (what it actually does today):**
+- Seeds a representative corpus from **Faulkner 1969** supplement page 10 (Utterances 59A–63 for Neith, Nt 304–308).
+- Links **near-primary plates** from Jequier 1933 (Planche VII–XIII) and **Sethe 1908** EOS page images as secondary evidence anchors.
+- Imports **published English translations** (Mercer 1952, Utterances 59–63) as prior readings with provenance.
+- Auto-segments glyph clusters from the primary evidence image (no sign identification yet).
+- Generates `REPORT.md` with evidence images, secondary anchors, journal entries, and prior readings.
+
+**What it does NOT do yet:**
+- No automatic hieroglyph identification, transliteration, or translation generation.
+- No direct PDF plate capture for Sethe 1908 vol. 1 (access still blocked by JS/availability).
+- Discrepancy scoring is stubbed until sign observations or manual readings are added.
 
 ## Quick start
 
